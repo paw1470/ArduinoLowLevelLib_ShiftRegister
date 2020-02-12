@@ -21,9 +21,9 @@ bool ShiftRegisterPB::isBitOn(uint8_t bitPosition){
 
 void ShiftRegisterPB::setBit(uint8_t bitPosition, bool bitNewState){
     if(bitNewState){
-        data = SetBit(data, bitPosition);
+        SetBit(data, bitPosition);
     } else{
-        data = ClearBit(data, bitPosition);
+        ClearBit(data, bitPosition);
     }
 }
 
