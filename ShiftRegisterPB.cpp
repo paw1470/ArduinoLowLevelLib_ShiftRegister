@@ -53,7 +53,7 @@ void ShiftRegisterPB::testShift(){
 
 void ShiftRegisterPB::testBlink0(){
     for(int i=0; i<10; i++){
-        setBit(0, i/2);
+        setBit(0, (i/2 == 0 ? false : true));
         updateRegister();
         delay(250);
     }
