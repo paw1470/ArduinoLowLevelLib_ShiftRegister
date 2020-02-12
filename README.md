@@ -1,2 +1,2 @@
 # ArduinoLowLevelLib_ShiftRegister
-Shift register Lib for arduino
+Shift register 74hc595 Lib for arduino
