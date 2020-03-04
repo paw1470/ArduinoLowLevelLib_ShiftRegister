@@ -10,7 +10,7 @@ ShiftRegisterPB shiftRegister;
 void setup(){
     shiftRegister.init(PIN_SHIFT_REGISTER_DATA, PIN_SHIFT_REGISTER_LATCH, PIN_SHIFT_REGISTER_CLOCK);
     shiftRegister.testShift();
-    shiftRegister.testBlink0(); //not working
+    shiftRegister.testBlink0();
     shiftRegister.setDataByte(0b10101010);
     shiftRegister.updateRegister();
 }
